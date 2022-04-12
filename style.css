@@ -76,7 +76,7 @@ ul li a:hover {
     border: .25em solid #9E9E9E;
     border-radius: 1em;
     margin: 1em;
-    background-color: #FBE9E7;
+    background-color: #34495E;
 }
 
 /*---------------Titulo y texto abajo---------------*/
@@ -90,6 +90,8 @@ ul li a:hover {
 
 .parte1 p {
     text-align: center;
+    font-size: 1.6em;
+    color: #000;
 }
 
 h2 {
@@ -403,3 +405,26 @@ h5 {
 }
 
 /*------Animaciones, transformaciones y transiciones------*/
+
+h1 span{
+    transition: .5s linear;
+}
+h1:hover span:nth-child(1){
+    margin-left: .5em;
+}
+h1:hover span:nth-child(2){
+    margin-right: .5em;
+    margin-left: .5em;
+}
+
+h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+}
+h1:hover .disappear{
+    color: #34495E;
+    text-shadow: 0 0 10px #34495E;
+}
+
+
+
