@@ -410,11 +410,11 @@ h1 span{
     transition: .5s linear;
 }
 h1:hover span:nth-child(1){
-    margin-left: .5em;
+    margin-right: .2em;
 }
 h1:hover span:nth-child(2){
-    margin-right: .5em;
-    margin-left: .5em;
+    margin-right: .2em;
+    margin-left: .2em;
 }
 
 h1:hover span{
@@ -424,7 +424,21 @@ h1:hover span{
 h1:hover .disappear{
     color: #34495E;
     text-shadow: 0 0 10px #34495E;
+
 }
+
+/*con un hover y una transformacion agrando las fotos de la pagina productos*/
+
+.gridPadre img:hover{
+    transform: scale(1.2);
+}
+.padreProductos img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
 
 
 
