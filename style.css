@@ -436,7 +436,29 @@ h1:hover .disappear{
     transform: scale(1.2);
 }
 
+/*voy a hacer que cambie de color el borde de cada img que le pase el mouse por arriba*/
 
+.gridPadre img:hover{
+    animation: changeBorder 1s infinite;
+}
+
+@keyframes changeBorder{
+    0%{
+        border: .5em solid gray;
+    }
+    25%{
+        border: .5em solid #fff;
+    }
+    50%{
+        border: .5em solid gray;
+    }
+    75%{
+        border: .5em solid #fff;
+    }
+    100%{
+        border: .5em solid gray;
+    }
+}
 
 
 
