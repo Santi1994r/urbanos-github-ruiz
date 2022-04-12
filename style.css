@@ -460,6 +460,9 @@ h1:hover .disappear{
     }
 }
 
+.padreProductos img:hover{
+    animation: changeBorder 1s infinite;
+}
 
 
 
