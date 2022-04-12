@@ -503,9 +503,9 @@ header:hover{
 }
 header:hover{
     
-    animation: changeBackground 1s infinite;    
+    animation: changeColor 1s infinite;    
 }
-@keyframes changeBackground{
+@keyframes changeColor{
     0%{
         color: red;
     }
